@@ -1,0 +1,25 @@
+metemos email y número de order
+1.- se tiene que devolver el identificador de usuario (consulta a un servicio externo con interfaz de entrada:
+
+email , empresa
+
+y devuelve:
+
+identificador de usuario, nombre y apellidos
+
+2.- con el número de order se consulta otro servicio para ver si esa order está activa para ese usuario
+
+entrada:
+
+idusuario, order
+
+se devuelve boolean
+
+
+el recurso final que se devuelve es la información completa de la order con los datos siguientes:
+
+email
+nombre y apellidos del usuario
+empresa a la que pertenece
+order
+boolean
