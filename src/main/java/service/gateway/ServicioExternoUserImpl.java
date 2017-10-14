@@ -1,9 +1,12 @@
 package service.gateway;
 
-import service.domain.User;
+import org.springframework.stereotype.Service;
 
+import service.domain.User;
+@Service("ServicioExternoUser")
 public class ServicioExternoUserImpl implements IExternalServiceUserGateway {
 
+	
 	@Override
 	public User getUser(User user) {
 		// TODO Auto-generated method stub

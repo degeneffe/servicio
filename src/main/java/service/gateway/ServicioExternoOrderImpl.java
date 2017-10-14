@@ -1,7 +1,10 @@
 package service.gateway;
 
+import org.springframework.stereotype.Service;
+
 import service.domain.Order;
 
+@Service("ServicioExternoOrder")
 public class ServicioExternoOrderImpl implements IExternalServiceOrderGateway {
 
 	@Override

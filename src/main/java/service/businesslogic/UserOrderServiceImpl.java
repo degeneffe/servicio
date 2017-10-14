@@ -3,6 +3,8 @@ package service.businesslogic;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
+import org.springframework.stereotype.Service;
+
 import service.api.UserOrder;
 import service.domain.Order;
 import service.domain.User;
@@ -11,6 +13,7 @@ import service.gateway.IExternalServiceUserGateway;
 import service.gateway.ServicioExternoOrderImpl;
 import service.gateway.ServicioExternoUserImpl;
 
+@Service("UserOrderService")
 public class UserOrderServiceImpl implements IUserOrderService {
  
 	
