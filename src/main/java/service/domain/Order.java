@@ -1,4 +1,4 @@
-package servicio.domain;
+package service.domain;
 
 public class Order {
 private String strIdUser;

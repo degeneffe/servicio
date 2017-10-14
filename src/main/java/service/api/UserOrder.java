@@ -1,4 +1,4 @@
-package servicio.api;
+package service.api;
 
 public class UserOrder {
 

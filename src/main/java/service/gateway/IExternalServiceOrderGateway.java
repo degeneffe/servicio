@@ -1,6 +1,6 @@
-package servicio.gateway;
+package service.gateway;
 
-import servicio.domain.Order;
+import service.domain.Order;
 
 public interface IExternalServiceOrderGateway {
 public Order getOrder(Order order);

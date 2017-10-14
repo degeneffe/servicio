@@ -1,8 +1,8 @@
-package servicio.resource;
+package service.resource;
 
 import java.util.logging.Logger;
 
-import servicio.businesslogic.UserOrderServiceImpl;
+import service.businesslogic.UserOrderServiceImpl;
 
 public class MainResource {
 

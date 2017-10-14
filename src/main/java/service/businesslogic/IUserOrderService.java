@@ -1,6 +1,6 @@
-package servicio.businesslogic;
+package service.businesslogic;
 
-import servicio.api.UserOrder;
+import service.api.UserOrder;
 
 public interface IUserOrderService {
 

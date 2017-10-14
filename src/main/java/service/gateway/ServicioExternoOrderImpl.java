@@ -1,6 +1,6 @@
-package servicio.gateway;
+package service.gateway;
 
-import servicio.domain.Order;
+import service.domain.Order;
 
 public class ServicioExternoOrderImpl implements IExternalServiceOrderGateway {
 

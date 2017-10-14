@@ -1,6 +1,6 @@
-package servicio.gateway;
+package service.gateway;
 
-import servicio.domain.User;
+import service.domain.User;
 
 public interface IExternalServiceUserGateway {
 
