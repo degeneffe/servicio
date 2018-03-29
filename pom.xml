@@ -77,11 +77,13 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
-			 <plugin>
-        <groupId>org.sonarsource.scanner.maven</groupId>
-        <artifactId>sonar-maven-plugin</artifactId>
-        <version>5.1</version>
-      </plugin>
+			 <!-- https://mvnrepository.com/artifact/org.codehaus.sonar/sonar-maven-plugin -->
+<dependency>
+    <groupId>org.codehaus.sonar</groupId>
+    <artifactId>sonar-maven-plugin</artifactId>
+    <version>5.1</version>
+</dependency>
+
 		</plugins>
 	</build>
 </project>
